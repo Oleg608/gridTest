@@ -1,0 +1,127 @@
+* {
+  margin: 0 auto;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+}
+.headerWrapper {
+  height: auto;
+  width: 100%;
+  height: 60vh;
+  text-align: center;
+  color: white;
+  background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.headerWrapper > h1 {
+  padding-top: 100px;
+}
+.headerWrapper > p {
+  font-size: 18px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+#btn {
+  border: 1px solid white;
+  padding: 25px;
+  background-color: #333333;
+  text-decoration: none;
+  color: white;
+}
+
+.SectionA {
+  text-align: center;
+  background-color: #eaeaea;
+  color: #333;
+}
+.textContainer {
+  columns: 2;
+  column-gap: 2em;
+  padding: 15px;
+}
+.SectionA > h1 {
+  padding: 25px;
+}
+
+.cardsWrapper {
+  padding-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.card {
+  margin: 20px;
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+}
+.card > p {
+  padding: 15px;
+  margin: 15px;
+}
+.card > h3 {
+  padding: 15px;
+}
+
+.SectionC {
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+}
+
+.SectionC > h1 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.SectionC > p {
+  width: 80%;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+.SectionD {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.leftWrapper {
+  padding: 25px;
+  text-align: center;
+  background-color: #2690d4;
+  color: #fff;
+}
+.rightWrapper {
+  padding: 25px;
+  text-align: center;
+  color: #fff;
+}
+
+.leftWrapper > p,
+.rightWrapper > p {
+  width: 80%;
+  margin-top: 25px;
+}
+.footerWrapper {
+  background-color: #000;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.footerWrapper > p {
+  padding: 25px;
+}
+.footerWrapper > p > a {
+  text-decoration: none;
+  color: #2690d4;
+}
